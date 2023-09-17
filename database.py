@@ -1,4 +1,5 @@
 import sqlite3
+from user_management import signup_user, login_user
 
 conn = sqlite3.connect('naming_app.db')
 
